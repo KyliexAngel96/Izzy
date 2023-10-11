@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Photosplash</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+
+    
+      
+      
+  </html>
+  <body>
+    <h1>A little Family Photo Trip</h1>
+    <h3>  Love from us all!  </h3><br />
+    <hr />
+
+    <div class="full-img" id="fullImgBox">
+        <img src="Images/Izzy Family slides/Iz and baby Brothers.jpg" id="fullImg">
+        <span onclick="closeFullImg()">X</span>
+    </div>
+   <div class="img-gallery">
+    <img src="Images/Izzy Family slides/Iz and baby Brothers.jpg" onclick="openFullImg(this.src)">
+    <img src="Images/Izzy Family slides/iz and brother3.jpg" onclick="openFullImg(this.src)">
+    <img src="Images/Izzy Family slides/Iz and Brothers.jpg" onclick="openFullImg(this.src)">
+    <img src="Images/Izzy Family slides/IZ and brothers2.jpg" onclick="openFullImg(this.src)">
+    <img src="Images/Izzy Family slides/Iz and Marista.jpg" onclick="openFullImg(this.src)">
+    <img src="Images/Izzy Family slides/Iz and Papa.jpg" onclick="openFullImg(this.src)"> 
+    <img src="Images/Izzy Family slides/Iz and Sampie.jpg" onclick="openFullImg(this.src)">
+    <img src="Images/Izzy Family slides/Iz and Sampie2.jpg" onclick="openFullImg(this.src)">
+    <img src="Images/Izzy Family slides/Iz and Willie.jpg" onclick="openFullImg(this.src)">
+    <img src="Images/Izzy Family slides/Iz and Willie1.jpg" onclick="openFullImg(this.src)">
+    <img src="Images/Izzy Family slides/Iz and Willie3.jpg" onclick="openFullImg(this.src)">
+    <img src="Images/Izzy Family slides/Iz and Willie4.jpg" onclick="openFullImg(this.src)">
+    <img src="Images/Izzy Family slides/Iz and Willie5.jpg" onclick="openFullImg(this.src)">
+    <img src="Images/Izzy Family/Izzy Marc Baba.jpg" onclick="openFullImg(this.src)">
+    <img src="Images/Izzy Family/Izzy kylie ouma.jpg" onclick="openFullImg(this.src)">
+    <img src="Images/Izzy Marc/Izzy Marc Nephew.jpg" onclick="openFullImg(this.src)">
+   </div>
+
+</tr>
+      </table>
+
+    <hr>
+    <a href="Main Page.html">Home</a>
+
+<script>
+
+  var fullImgBox = document.getElementById("fullImgBox");
+  var fullImg = document.getElementById("fullImg");
+
+  function openFullImg(pic){
+    fullImgBox.style.display= "flex"
+    fullImg.src = pic;
+  }
+  function closeFullImg(){
+    fullImgBox.style.display= "none"
+  }
+</script>
+  </body>
+</html>
