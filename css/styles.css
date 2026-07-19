@@ -1,35 +1,41 @@
+@media (max-width: 600px) {
+  .gift-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 body {
   background-image: linear-gradient( #a70000,#ff0000 ,#30302e,black,#30302e, #ff0000, #a70000);
   color: rgb(255, 255, 255);
   text-align: center;
-  font-size: 50px;
+  font-size: 20px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 h1 {
   text-align: center;
-  font-size: 200px;
+  font-size: 20px;
   font-weight: 200;
   font-family: 'Brush script mt' ;
 }
 
 h2{
   text-align: center;
-  font-size: 150px;
+  font-size: 20px;
   font-weight: 100;
   font-family: 'Brush script mt' ;
 }
 
 h3{
   text-align: center;
-  font-size: 150px;
+  font-size: 20px;
   font-weight: 100;
   font-family: 'Brush script mt' ;
 }
 
 p {
   text-align: center;
-  font-size: 90px;
+  font-size: 20px;
   font-weight: 50;
   font-family: 'avantgarde,cursive' ;
    font-style:italic ;
@@ -37,14 +43,14 @@ p {
 
 p2 {
   text-align: center;
-  font-size: 80px;
+  font-size: 20px;
   font-weight: 100;
   font-family: 'Avantgarde' ;
 }
 
 p3 {
   text-align: center;
-  font-size: 80px;
+  font-size: 20px;
   font-weight: 100;
   font-family: 'Avantgarde' ;
 }
@@ -66,7 +72,7 @@ hr {
 
 td{
   text-align: center;
-  font-size: 70px;
+  font-size: 50px;
   font-weight: 50;
   font-family: 'avantgarde,cursive' ;
    font-style:italic ;
@@ -79,7 +85,7 @@ td{
   
  .img-gallery {
   width:50%;
-  margin: 100px auto 50px;
+  margin: 34rem auto 50px;
 display: grid ;
 grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 grid-gap: 30px;

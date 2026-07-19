@@ -1,57 +1,49 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
 <head>
   <meta charset="utf-8">
   <title>Happy Birthday</title>
   <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .gift-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    .gift-grid img {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      border-radius: 8px;
+      display: block;
+    }
+  </style>
 </head>
-
 <body>
   <h1><em>Dearest Isabel Ferreira</em></h1>
-  <p> Hello my beautiful bestie! As you may know I am definitely no web designer. However I wanted to try something special just for you!   
+  <p>Hello my beautiful bestie! As you may know I am definitely no web designer. However I wanted to try something special just for you!
   <br>
-I put together a few things from those you love and those who love you</p>
-<p2>Click on an image and see what they have to say!</p2>
-  <table class="Table" cellspacing="30">
-   
-    <tr>
-      <td>
-        <a href="Bestie.html" ><img style="height: 1000px;width: 1000px;" src="Images/Bestie/Izzy kylie.jpg" ></a>
-      </td>
-      <td>
-        <a href="Hubby.html"><img style="height: 1000px;width: 1000px;" src="Images/Izzy Marc/Izzy & Marc.jpg " ></a>
-      </td>
-    </tr>
-  
-    <tr>
-      <td>
-        <a href="Family.html"><img style="height: 1000px;width: 1000px;" src="Images/Izzy Parents/Izzy and Mom.jpg"></a>
-      </td>
-      <td>
-        <a href="Photosplash"><img style="height: 1000px;width: 1000px;" src="Images/Izzy family/Izzy & Family.jpg" ></a>
-      </td>
-      <tr>
-        <td>
-          <a href="Friends.html"><img style="height: 1000px;width: 1000px;" src="Images/Gamer Friends.jpg" ></a>
-        </td>
-      <td>
-        <a href="Babas.html"><img style="height: 1000px;width: 1000px;" src="Images/Babas/Babas.jpg" ></a>
-      </td>
-    </tr>
-     
+  I put together a few things from those you love and those who love you</p>
+  <p>Click on an image and see what they have to say!</p>
 
+  <div class="gift-grid">
+    <a href="Bestie.html"><img src="Images/Bestie/Izzy kylie.jpg"></a>
+    <a href="Hubby.html"><img src="Images/Izzy Marc/Izzy & Marc.jpg"></a>
+    <a href="Family.html"><img src="Images/Izzy Parents/Izzy and Mom.jpg"></a>
+    <a href="Photosplash.html"><img src="Images/Izzy family/Izzy & Family.jpg"></a>
+    <a href="Friends.html"><img src="Images/Gamer Friends.jpg"></a>
+    <a href="Babas.html"><img src="Images/Babas/Babas.jpg"></a>
+  </div>
 
-
-
-  </table>
   <hr>
   <a href="Bestie.html">Bestie</a>
   <a href="Hubby.html">Hubby</a>
   <a href="Family.html">Family</a>
   <a href="Babas.html">Babies</a>
   <a href="Friends.html">Friends</a>
-  <a href="Photosplash">Photosplash</a>
+  <a href="Photosplash.html">Photosplash</a>
 </body>
-
 </html>
